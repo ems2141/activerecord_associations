@@ -2,7 +2,7 @@ require 'spec_helper'
 
 feature 'Tasks' do
   scenario 'Can see the tasks for a user' do
-    pending "Do me first"
+    #pending "Do me first"
     bob = User.create!(name: "Bob Smith")
 
     Task.create!(user_id: bob.id, description: "Run 10 miles")
